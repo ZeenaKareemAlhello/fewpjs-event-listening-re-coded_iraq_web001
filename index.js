@@ -2,5 +2,7 @@
 let input=document.getElementById('input');
 function addingEventListener() {
   
-input.addEventListener('click',)
+input.addEventListener('click',function(event) {
+  alert('I was clicked!');
+})
 }
